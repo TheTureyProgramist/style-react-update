@@ -42,7 +42,7 @@ const Text = styled.p`
 `;
 
 const LikeBtn = styled.button`
-  background-color: ${({ liked }) => (liked ? 'violet' : 'skyblue')};
+  background-color: skyblue;
   display: block;
   width: 150px;
   height: 40px
@@ -54,12 +54,6 @@ const LikeBtn = styled.button`
 `;
 
 function App() {
-  const [liked, setLiked] = useState(false);
-
-  const handleLike = () => {
-    setLiked(!liked);
-  };
-
   return (
     <div className="App">
       <ArticleElement>
