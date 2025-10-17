@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/style-react-update/static/css/main.31d6cfe0.css",
+    "main.js": "/style-react-update/static/js/main.2998fe2b.js",
+    "index.html": "/style-react-update/index.html",
+    "main.2998fe2b.js.map": "/style-react-update/static/js/main.2998fe2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.2998fe2b.js"
+  ]
+}
