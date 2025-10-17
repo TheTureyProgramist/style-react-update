@@ -1,4 +1,6 @@
-import React, { useState } from 'react'; 
+import img1 from './images/royalpalm.webp';
+import img2 from './images/whiteholland.webp';
+import img3 from './images/wildturkeys.webp';
 import './App.css';
 import styled from 'styled-components';
 
@@ -60,20 +62,20 @@ function App() {
         <Title>Hаші індики</Title>
         <CardBlock>
           <Card>
-            <Image src="/images/royalpalm.webp" alt="Turkey Image"></Image>
+            <Image src="{img1}" alt="Turkey Image"></Image>
             <Text>Королівські палички індики</Text>
           </Card>
           <Card>
-            <Image src="/images/whiteholland.webp" alt="Turkey Image 2"></Image>
+            <Image src="{img2}" alt="Turkey Image 2"></Image>
             <Text>Білі голанські індики</Text>
           </Card>
           <Card>
-            <Image src="/images/wildturkeys.webp" alt="Turkey Image 3"></Image>
+            <Image src="{img3}" alt="Turkey Image 3"></Image>
             <Text>Дикі індики</Text>
           </Card>
         </CardBlock>
-        <LikeBtn liked={liked} onClick={handleLike}>
-          {liked ? 'Дякую!' : 'Підтримайте'}
+        <LikeBtn>
+          Підтримайте
         </LikeBtn>
       </ArticleElement>
     </div>
